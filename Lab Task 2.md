@@ -22,3 +22,10 @@ Concrete Component – defines an object to which additional responsibilities ca
 Decorator – maintains a reference to a component object and defines an interface that conforms to the component’s interface.
 
 Concrete Decorators – add responsibilities to the component.
+
+✅ Why Decorator Pattern Works Here?
+Allows dynamic customization of the coffee without altering existing classes.
+
+Promotes flexibility — you can mix and match add-ons in any order.
+
+Adheres to Open-Closed Principle — classes are open for extension, but closed for modification.
